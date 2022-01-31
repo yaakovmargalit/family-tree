@@ -1,0 +1,9 @@
+<div class="persons-list" *ngFor="let person of persons">
+    <ul>
+        <li>
+            <person-preview [person]="person"></person-preview>
+            <!-- Render the responses belonging to the current response, by recursion -->
+            <person class="person" [persons]="person.fatherOf" *ngIf="person.fatherOf"></person>
+        </li>
+    </ul>
+</div>

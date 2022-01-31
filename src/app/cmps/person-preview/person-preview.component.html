@@ -1,0 +1,15 @@
+<div routerLink=""   class="person-preview" [ngClass]="{'last':!person.fatherOf.length,'top':!person.childOf}">
+    <div class="inner">
+
+        <h3>{{person.name}}</h3>
+        <img class="preson-img" [src]="'https://robohash.org/'+person.name" alt="">
+        <div (click)="$event.stopPropagation(); toggleActions=!toggleActions" >
+
+            <mat-icon >linear_scale</mat-icon>
+        </div>
+        <div class="actions" *ngIf="toggleActions" >
+            <button (click)="$event.stopPropagation(); addChild()">Add Child</button>
+            <button *ngIf="person.childOf" (click)="$event.stopPropagation(); removePerson()">X</button>
+        </div>
+    </div>
+</div>

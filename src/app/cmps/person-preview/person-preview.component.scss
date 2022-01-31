@@ -1,0 +1,41 @@
+.person-preview {
+    width: calc(100% - 118px);
+    margin: auto;
+    // height: 100px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    border-bottom: 2px rgb(172, 172, 172) solid;
+    &:not(.top)::before {
+        content: "";
+        width: 2px;
+        height: 30px;
+        background-color: rgb(172, 172, 172);
+    }
+
+    &:not(.last)::after {
+        content: "";
+        width: 2px;
+        height: 30px;
+        background-color: rgb(172, 172, 172);
+    }
+
+    .inner {
+        background-color: rgb(245, 251, 244);
+        display: flex;
+        border: 4px rgb(195, 195, 195) solid;
+        border-radius: 5px;
+        padding: 10px;
+        // justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+
+        .preson-img {
+            width: 40px;
+        }
+    }
+}
+.last {
+    // border: none;
+}
