@@ -170,117 +170,117 @@ export class TreeService {
         },
       ]
     },
-    {
-      id: '2',
-      name: 'כלום וחצי',
-      persons: [
-        {
-          "id": "1",
-          "name": "Yaakov",
-          "imgUrl": "ffff",
-          "childOf": "",
-          "fatherOf": [2, 3, 4]
-        },
-        {
-          "id": "2",
-          "name": "eli",
-          "imgUrl": "ffff",
-          "childOf": "1",
-          "fatherOf": [5, 6]
-        },
-        {
-          "id": "3",
-          "name": "chim",
-          "imgUrl": "ffff",
-          "childOf": "1",
-          "fatherOf": [7, 8]
-        },
-        {
-          "id": "4",
-          "name": "moshe",
-          "imgUrl": "ffff",
-          "childOf": "1",
-          "fatherOf": []
-        },
-        {
-          "id": "5",
-          "name": "tamar",
-          "imgUrl": "ffff",
-          "childOf": "2",
-          "fatherOf": []
-        },
-        {
-          "id": "6",
-          "name": "david",
-          "imgUrl": "ffff",
-          "childOf": "2",
-          "fatherOf": []
-        },
-        {
-          "id": "7",
-          "name": "mashho",
-          "imgUrl": "ffff",
-          "childOf": "3",
-          "fatherOf": []
-        },
-        {
-          "id": "8",
-          "name": "clum",
-          "imgUrl": "ffff",
-          "childOf": "3",
-          "fatherOf": []
-        },
-        {
-          "id": "9",
-          "name": "clum",
-          "imgUrl": "ffff",
-          "childOf": "3",
-          "fatherOf": []
-        },
-        {
-          "id": "10",
-          "name": "clum",
-          "imgUrl": "ffff",
-          "childOf": "3",
-          "fatherOf": []
-        },
-        {
-          "id": "11",
-          "name": "clum",
-          "imgUrl": "ffff",
-          "childOf": "4",
-          "fatherOf": []
-        },
-        {
-          "id": "12",
-          "name": "clum",
-          "imgUrl": "ffff",
-          "childOf": "4",
-          "fatherOf": []
-        },
-        {
-          "id": "13",
-          "name": "clum",
-          "imgUrl": "ffff",
-          "childOf": "4",
-          "fatherOf": []
-        },
-        {
-          "id": "14",
-          "name": "clum",
-          "imgUrl": "ffff",
-          "childOf": "7",
-          "fatherOf": []
-        },
-        {
-          "id": "15",
-          "name": "clum",
-          "imgUrl": "ffff",
-          "childOf": "7",
-          "fatherOf": []
-        }
-      ]
-    },
+    // {
+    //   id: '2',
+    //   name: 'כלום וחצי',
+    //   persons: [
+    //     {
+    //       "id": "1",
+    //       "name": "Yaakov",
+    //       "imgUrl": "ffff",
+    //       "childOf": "",
+    //       "fatherOf": [2, 3, 4]
+    //     },
+    //     {
+    //       "id": "2",
+    //       "name": "eli",
+    //       "imgUrl": "ffff",
+    //       "childOf": "1",
+    //       "fatherOf": [5, 6]
+    //     },
+    //     {
+    //       "id": "3",
+    //       "name": "chim",
+    //       "imgUrl": "ffff",
+    //       "childOf": "1",
+    //       "fatherOf": [7, 8]
+    //     },
+    //     {
+    //       "id": "4",
+    //       "name": "moshe",
+    //       "imgUrl": "ffff",
+    //       "childOf": "1",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "5",
+    //       "name": "tamar",
+    //       "imgUrl": "ffff",
+    //       "childOf": "2",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "6",
+    //       "name": "david",
+    //       "imgUrl": "ffff",
+    //       "childOf": "2",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "7",
+    //       "name": "mashho",
+    //       "imgUrl": "ffff",
+    //       "childOf": "3",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "8",
+    //       "name": "clum",
+    //       "imgUrl": "ffff",
+    //       "childOf": "3",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "9",
+    //       "name": "clum",
+    //       "imgUrl": "ffff",
+    //       "childOf": "3",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "10",
+    //       "name": "clum",
+    //       "imgUrl": "ffff",
+    //       "childOf": "3",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "11",
+    //       "name": "clum",
+    //       "imgUrl": "ffff",
+    //       "childOf": "4",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "12",
+    //       "name": "clum",
+    //       "imgUrl": "ffff",
+    //       "childOf": "4",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "13",
+    //       "name": "clum",
+    //       "imgUrl": "ffff",
+    //       "childOf": "4",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "14",
+    //       "name": "clum",
+    //       "imgUrl": "ffff",
+    //       "childOf": "7",
+    //       "fatherOf": []
+    //     },
+    //     {
+    //       "id": "15",
+    //       "name": "clum",
+    //       "imgUrl": "ffff",
+    //       "childOf": "7",
+    //       "fatherOf": []
+    //     }
+    //   ]
+    // },
   ]
 
   private _currTreeId = null
