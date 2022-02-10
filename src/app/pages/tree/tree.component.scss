@@ -24,3 +24,13 @@ drag-scroll {
         display: block;
     }
 }
+
+.explained{
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: rgb(168, 168, 168);
+    background-color: rgb(231, 231, 231);
+    padding: 5px;
+    z-index: 200;
+}

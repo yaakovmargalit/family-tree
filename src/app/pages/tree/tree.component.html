@@ -1,4 +1,6 @@
+<h2 class="explained">Drag to see the whole tree</h2>
+
 <drag-scroll [scrollbar-hidden]="true" (dragStart)="toggelDrag()" (dragEnd)="toggelDrag()">
-<mat-icon *ngIf="isDrag" class="arrow">open_with</mat-icon>
+    <mat-icon *ngIf="isDrag" class="arrow">open_with</mat-icon>
     <person [persons]="tree.persons"></person>
 </drag-scroll>

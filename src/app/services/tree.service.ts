@@ -23,102 +23,151 @@ export class TreeService {
         },
         {
           "id": "2",
-          "name": "eli",
+          "name": "Eli",
           "imgUrl": "ffff",
           "childOf": "1",
           "fatherOf": [5, 6]
         },
         {
           "id": "3",
-          "name": "chim",
+          "name": "Oliver",
           "imgUrl": "ffff",
           "childOf": "1",
           "fatherOf": [7, 8]
         },
         {
           "id": "4",
-          "name": "moshe",
+          "name": "Emma",
           "imgUrl": "ffff",
           "childOf": "1",
           "fatherOf": []
         },
         {
           "id": "5",
-          "name": "tamar",
+          "name": "Sophia",
           "imgUrl": "ffff",
           "childOf": "2",
           "fatherOf": []
         },
         {
           "id": "6",
-          "name": "david",
+          "name": "Benjamin",
           "imgUrl": "ffff",
           "childOf": "2",
           "fatherOf": []
         },
         {
           "id": "7",
-          "name": "mashho",
+          "name": "Harper",
           "imgUrl": "ffff",
           "childOf": "3",
           "fatherOf": []
         },
         {
           "id": "8",
-          "name": "clum",
+          "name": "James",
           "imgUrl": "ffff",
           "childOf": "3",
           "fatherOf": []
         },
         {
           "id": "9",
-          "name": "clum",
+          "name": "Ava",
           "imgUrl": "ffff",
           "childOf": "3",
           "fatherOf": []
         },
         {
           "id": "10",
-          "name": "clum",
+          "name": "Harper",
           "imgUrl": "ffff",
           "childOf": "3",
           "fatherOf": []
         },
         {
           "id": "11",
-          "name": "clum",
+          "name": "Charlotte",
           "imgUrl": "ffff",
           "childOf": "4",
           "fatherOf": []
         },
         {
           "id": "12",
-          "name": "clum",
+          "name": "Amelia",
           "imgUrl": "ffff",
           "childOf": "4",
           "fatherOf": []
         },
         {
           "id": "13",
-          "name": "clum",
+          "name": "Mia",
           "imgUrl": "ffff",
           "childOf": "4",
           "fatherOf": []
         },
         {
           "id": "14",
-          "name": "clum",
+          "name": "Luna",
           "imgUrl": "ffff",
           "childOf": "7",
           "fatherOf": []
         },
         {
           "id": "15",
-          "name": "clum",
+          "name": "Mila",
           "imgUrl": "ffff",
           "childOf": "7",
           "fatherOf": []
-        }
+        },
+        {
+          "id": "16",
+          "name": "Chloe",
+          "imgUrl": "ffff",
+          "childOf": "12",
+          "fatherOf": []
+        },
+        {
+          "id": "17",
+          "name": "Victoria",
+          "imgUrl": "ffff",
+          "childOf": "16",
+          "fatherOf": []
+        },
+        {
+          "id": "18",
+          "name": "Hannah",
+          "imgUrl": "ffff",
+          "childOf": "16",
+          "fatherOf": []
+        },
+        {
+          "id": "19",
+          "name": "Zoe",
+          "imgUrl": "ffff",
+          "childOf": "18",
+          "fatherOf": []
+        },
+        {
+          "id": "20",
+          "name": "Addison",
+          "imgUrl": "ffff",
+          "childOf": "18",
+          "fatherOf": []
+        },
+        {
+          "id": "21",
+          "name": "Lucy",
+          "imgUrl": "ffff",
+          "childOf": "12",
+          "fatherOf": []
+        },
+        {
+          "id": "22",
+          "name": "Naomi",
+          "imgUrl": "ffff",
+          "childOf": "12",
+          "fatherOf": []
+        },
       ]
     },
     {
